@@ -1,0 +1,78 @@
+/* Configuração geral do corpo da página */
+body {
+    background-image: url('imagem_site.jpg'); /* Nome do arquivo da imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro translúcido */
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+    color: #fff;
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Adiciona espaçamento entre os itens */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(0, 123, 255, 0.8);
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Caixa de conteúdo */
+.content {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido */
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: black;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
